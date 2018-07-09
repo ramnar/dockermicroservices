@@ -1,0 +1,14 @@
+version: '3'
+ 
+services:
+ movieservice:
+     build: ./movieservice
+     expose: 
+        - "8080"
+
+ uiservice:
+     build: ./angularclient
+     ports:
+             - "80:80"
+     depends_on:
+        - movieservice
