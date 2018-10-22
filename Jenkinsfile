@@ -10,8 +10,8 @@ node {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-
-        sh '/usr/local/bin/docker-compose -f docker-compose.yml up --build'
+        app = docker.build("movieservice", "-f movieservice/Dockerfile .")
+        /*sh '/usr/local/bin/docker-compose -f docker-compose.yml up --build'*/
     }
 
     stage('Test image') {
