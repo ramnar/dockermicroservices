@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        sh 'docker-compose -f docker-compose.yml up --build'
+        sh '/usr/local/bin/docker-compose -f docker-compose.yml up --build'
     }
 
     stage('Test image') {
