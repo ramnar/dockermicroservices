@@ -56,6 +56,8 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 
 # References
 
+https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-and-continuous-delivery-by-dockerize-jenkins-f5b9b45b610d
+
 https://jenkins.io/doc/book/installing/
 
 It generally makes sense to have everything in the same repository; the application code, what the build artifact should look like (Dockerfile), and how said artifact is created automatically (Jenkinsfile).
