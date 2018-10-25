@@ -60,4 +60,4 @@ https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-an
 
 https://jenkins.io/doc/book/installing/
 
-It generally makes sense to have everything in the same repository; the application code, what the build artifact should look like (Dockerfile), and how said artifact is created automatically (Jenkinsfile).
+github webhooks configuration steps - https://embeddedartistry.com/blog/2017/12/21/jenkins-kick-off-a-ci-build-with-github-push-notifications
