@@ -1,6 +1,6 @@
-##Setup of docker, jenkins and the CI/CD Integration
+## Setup of docker, jenkins and the CI/CD Integration
 
-##Install docker 
+# Install docker 
 
 sudo yum install docker
 
@@ -8,7 +8,7 @@ sudo service docker start
 
 sudo docker run hello-world .....<<<to check installation of docker is fine
 
-##Install jenkins
+# Install jenkins
 
 sudo docker pull jenkins
 
@@ -25,7 +25,7 @@ sudo docker run \
 docker exec -it jenkins-blueocean bash  >>To access default password of jenkins for configuration
 
 
-##Continuous Integration - Steps
+# Continuous Integration - Steps
 
 ->Check out code from scm
 
@@ -42,7 +42,7 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 ->Push to docker registry
 
 
-##Continuous Deployment - Steps
+# Continuous Deployment - Steps
 
 ->Pull Docker image from registry
 
@@ -54,6 +54,8 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 
 
 
-###References
+# References
+
 https://jenkins.io/doc/book/installing/
+
 It generally makes sense to have everything in the same repository; the application code, what the build artifact should look like (Dockerfile), and how said artifact is created automatically (Jenkinsfile).
