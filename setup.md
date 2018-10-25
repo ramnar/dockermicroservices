@@ -27,6 +27,8 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 
 # Continuous Integration - Steps
 
+->Commit code in github.Jenkins job is triggered via github webhooks
+
 ->Check out code from scm
 
 ->Build code and run junits - mvn clean install
