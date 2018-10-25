@@ -56,8 +56,10 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 
 # References
 
-https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-and-continuous-delivery-by-dockerize-jenkins-f5b9b45b610d
+Github webhooks configuration steps - https://embeddedartistry.com/blog/2017/12/21/jenkins-kick-off-a-ci-build-with-github-push-notifications
 
-https://jenkins.io/doc/book/installing/
+Dockerization Reference - https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-and-continuous-delivery-by-dockerize-jenkins-f5b9b45b610d
 
-github webhooks configuration steps - https://embeddedartistry.com/blog/2017/12/21/jenkins-kick-off-a-ci-build-with-github-push-notifications
+Jenkins Installation - https://jenkins.io/doc/book/installing/
+
+
