@@ -69,6 +69,10 @@ Github webhooks configuration steps - https://embeddedartistry.com/blog/2017/12/
 
 Dockerization Reference - https://medium.com/@hakdogan/an-end-to-end-tutorial-to-continuous-integration-and-continuous-delivery-by-dockerize-jenkins-f5b9b45b610d
 
-Jenkins Installation - https://jenkins.io/doc/book/installing/
+Jenkins Installation References
+
+https://jenkins.io/doc/book/installing/
+
+https://medium.com/@mohan08p/install-and-configure-jenkins-on-amazon-ami-8617f0816444
 
 
