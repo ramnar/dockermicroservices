@@ -27,6 +27,8 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 # Configure Jenkins
 
 Install Maven
+Install git
+
 
 
 
