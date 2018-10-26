@@ -8,7 +8,7 @@ sudo service docker start
 
 sudo docker run hello-world .....<<<to check installation of docker is fine
 
-# Install jenkins
+# Install jenkins(as docker image)
 
 sudo docker pull jenkins
 
@@ -23,6 +23,13 @@ sudo docker run \
   jenkinsci/blueocean
   
 docker exec -it jenkins-blueocean bash  >>To access default password of jenkins for configuration
+
+# Configure Jenkins
+
+Install Maven
+
+
+
 
 
 # Continuous Integration - Steps
