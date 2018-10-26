@@ -27,7 +27,18 @@ docker exec -it jenkins-blueocean bash  >>To access default password of jenkins 
 # Configure Jenkins
 
 Install Maven
+
 Install git
+
+configure docker registry credentials
+
+give admin access to jenkins users in ec2 
+
+sudo vim /etc/sudoers    
+
+jenkins ALL=(ALL) NOPASSWD: ALL
+
+ESC + :wq!
 
 
 
