@@ -53,7 +53,7 @@ ESC + :wq!
 
 ->Build code and run junits - mvn clean install
 
-    ->Advanced Step - Quality Checks using sonarqube using maven plugin
+    ->Advanced Step - Quality Checks using sonarqube(code analysis) and corbertura(code coverage) using maven plugin
 
     ->Advanced Step - Integration testing using selenium
 
